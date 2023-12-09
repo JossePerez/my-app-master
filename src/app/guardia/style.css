@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.card {
+  width: 230px;
+  height: 280px;
+  border-radius: 2em;
+  padding: 10px;
+  background-color: #191919;
+  box-shadow: 5px 5px 30px rgb(4, 4, 4), -5px -5px 30px rgb(57, 57, 57);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profileimage {
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5em;
+  width: 100px;
+  height: 100px;
+}
+
+.pfp {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 5em;
+}
+
+.Name {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.infobar {
+  background-color: #191919;
+  border-radius: 3em;
+  width: 90%;
+  padding: 14px;
+  margin-top: 15px;
+  color: white;
+  box-shadow: 3px 3px 15px rgb(0, 0, 0), -3px -3px 15px rgb(58, 58, 58);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
